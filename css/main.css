@@ -208,7 +208,7 @@ nav ul li a:hover {
 .home-section {
   width: 1000px;
   background-color: rgba(248, 248, 248, 0.671);
-  margin-bottom: 25px;
+  margin-bottom: 0px;
   padding-bottom: 25px;
 }
 .home-col {
@@ -342,5 +342,52 @@ footer {
 }
 .date {
   float: right;
+  font-size: 9px;
   font-weight: 700;
+}
+
+.contac-us input,
+textarea {
+  padding: 5px;
+  background-color: #cacaca;
+  margin-bottom: 5px;
+  width: 221.25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 15px;
+  font-family: inherit;
+  font-family: "Courier New", Courier, monospace;
+  text-transform: capitalize;
+}
+
+.contac-us button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  width: 50px;
+  background-color: rgb(235, 239, 241);
+  color: rgb(155, 76, 44);
+  border: 1px solid black;
+  font-weight: 750;
+  border-radius: 5px;
+  padding: 3px;
+}
+.contac-us button:hover {
+  background-color: rgb(170, 86, 60);
+  color: #ffffff;
+}
+
+.copyright {
+  width: 1000px;
+  background-color: #f3f3f3;
+  float: left;
+}
+
+.left {
+  float: left;
+  margin: 20px;
+}
+.right {
+  float: right;
+  margin: 20px;
 }
