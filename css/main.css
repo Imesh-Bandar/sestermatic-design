@@ -13,6 +13,7 @@ a {
   width: 1000px;
   margin: 0 auto;
   border: 1px solid rgb(207, 207, 207);
+  border-bottom: 0px;
 }
 
 .top-bar {
@@ -264,7 +265,8 @@ nav ul li a:hover {
   margin-bottom: 2px;
 }
 
-.services a {
+.services a,
+.blog-post a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 12px;
@@ -277,4 +279,68 @@ nav ul li a:hover {
   padding: 5px;
   cursor: pointer;
   clear: both;
+}
+
+footer {
+  width: 1000px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #f8f8f8;
+
+  float: left;
+}
+.footer-col {
+  width: 231.25px;
+  float: left;
+  margin-left: 15px;
+  border-top: 1px solid #6d0b0b;
+}
+
+.footer-col h4 {
+  text-transform: uppercase;
+  margin-left: 10px;
+  margin-top: 15px;
+  color: #444;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.tweet p {
+  font-size: 15px;
+  text-transform: lowercase;
+  font-family: "Courier New", Courier, monospace;
+  clear: both;
+}
+
+.quick-link {
+  list-style: none;
+  margin-top: 10px;
+  list-style: none;
+}
+.quick-link li a {
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid brown;
+  display: block;
+  color: #6d0b0b;
+  text-decoration: none;
+}
+
+.quick-link li a:hover {
+  color: #a04747;
+}
+.blog-post h5 {
+  font-size: 20px;
+}
+.blog-post {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.blockquote {
+  clear: both;
+  font-size: 15px;
+  float: right;
+}
+.date {
+  float: right;
+  font-weight: 700;
 }
