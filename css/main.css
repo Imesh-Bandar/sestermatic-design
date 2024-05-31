@@ -153,6 +153,9 @@ nav ul li a:hover {
 .intro {
   width: 970px;
   margin: 15px;
+  background-color: #fdfdfd;
+
+  margin-bottom: 0px;
 }
 .intro .intro-image {
   width: 400px;
@@ -244,7 +247,7 @@ nav ul li a:hover {
 .home-col a:hover {
   background-color: rgb(170, 86, 60);
 
-  color:white;
+  color: white;
 }
 
 .services img {
@@ -254,6 +257,11 @@ nav ul li a:hover {
 .services {
   margin-bottom: 10px;
   float: right;
+}
+
+.services h3 {
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 2px;
 }
 
 .services a {
@@ -268,4 +276,5 @@ nav ul li a:hover {
   border-radius: 5px;
   padding: 5px;
   cursor: pointer;
+  clear: both;
 }
