@@ -19,7 +19,7 @@
     <!-- main Wrapper Start with Navbar-->
     <main class="wrapper">
         <!-- Topbar start -->
-        <div class="top-bar clearfix">
+        <div class="top-bar clearfix" id="HeaderBar">
             <!-- top-bar-link-start -->
             <div class="top-bar-link">
                 <ul>
@@ -40,7 +40,7 @@
         </div>
         <!-- topbar end -->
         <!-- Header section -->
-        <header class="clearfix">
+        <header class="clearfix" id="Header">
             <!-- Compnay details section start -->
             <div class="company-deatils">
                 <h1>SepiaSystems</h1>
@@ -65,17 +65,17 @@
 
         <nav>
             <ul>
-                <li><a href="%"> Home</a></li>
-                <li><a href="%"> About us</a></li>
-                <li><a href="%">Service</a></li>
+                <li><a href="#Home"> Home</a></li>
+                <li><a href="#About"> About us</a></li>
+                <li><a href="#Service">Service</a></li>
                 <li><a href="%">Testimonials</a></li>
-                <li><a href="%">Contac us</a></li>
+                <li><a href="#ContacUs">Contac us</a></li>
             </ul>
         </nav>
         <!-- Navgiation Bar end -->
 
         <!-- Intro section start -->
-        <div class="intro clearfix">
+        <div class="intro clearfix" id="Home">
             <!-- Intro-Image strat -->
             <div class="intro-image">
                 <img src="./img/Main-photo.png" width="100%" height="80%" alt="Accountan-Image" srcset="" />
@@ -109,7 +109,7 @@
 
         <!-- Home content section  start-->
         <section class="home-section clearfix">
-            <div class="home-col clearfix">
+            <div class="home-col clearfix" id="About">
                 <h2>Little About us</h2>
                 <img src="img/about-us.jpg" alt="about-us" />
                 <p>
@@ -123,7 +123,7 @@
                 </p>
                 <a>Read More &raquo;</a>
             </div>
-            <div class="home-col clearfix">
+            <div class="home-col clearfix" id="Service">
                 <h3>Some of our service</h3>
                 <div class="services clearfix">
                     <img src="img/services/certificate-icon.png" alt="Service">
@@ -208,7 +208,7 @@
 
                 </div>
             </div>
-            <div class="footer-col">
+            <div class="footer-col" id="ContacUs">
                 <h4>Contac us</h4>
                 <form action="index.html" class="contac-us">
                     <input type="text" name="username" placeholder="Name">
